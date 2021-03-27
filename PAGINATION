@@ -24,7 +24,7 @@ $debut=($page-1)*$nbr_ele_par_page;
 
 
 for($i=1;$i<=$n_pages;$i++){
-    echo "<a href= ''>$i</a>&nbsp;";
+    echo "<a href= '?page=$i'>$i</a>&nbsp;";
 }
  
 ?>
